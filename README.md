@@ -70,21 +70,25 @@ We deploy the deepvariant model using Docker, which is the recommended method by
 
 https://github.com/google/deepvariant/blob/r1.10/docs/deepvariant-quick-start.md
 
-### Configuring Nextflow
+
+### hap.py for genomic evaluation
+Evaluation tool for assessing variant calling accuracy. Usually done by means of comparing to the golden standard.
+
+## Configuring Nextflow
 Using Nextflow to create a scalable, portable and reproducable workflow is very important. Nextflow supports a range of compute environments, making it a usefull tool. At the time of writing it is a very active community.
 
 Note: nextflow is installable using conda as well.
 
 https://docs.seqera.io/nextflow/install
 
-### hap.py for genomic evaluation
-Evaluation tool for assessing variant calling accuracy. Usually done by means of comparing to the golden standard.
+
+## Retraining the model
 
 ### MLFlow for retraining (optional)
 Widely adopted AIOps framework that can work with virtually any machine learning framework, including Tensorflow, which is what DeepVariant is based on.
 
-### Variant Interpretation using Alphagenome
-Deepmind's AlphaGenome model can decipher the regolatory code within DAN sequences. Offering multimodel predictions to the goal of predicting gene expresion, splicing patterns, chromatin features and contact maps. 
+## Variant Interpretation using Alphagenome
+Deepmind's AlphaGenome model can decipher the regulatory code within DAN sequences. Offering multimodel predictions to the goal of predicting gene expresion, splicing patterns, chromatin features and contact maps. 
 
 ## References
 Thanks to all different groups and contributors that have made these types of analysis possible! Specifically I refer to the papers of DeepVariant, vg, and Nextflow.
