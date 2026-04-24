@@ -1,0 +1,34 @@
+# Nextflow working directory
+work/
+.nextflow/
+.nextflow.log*
+
+# Results
+results/
+output/
+
+# Large genomic files
+*.bam
+*.bai
+*.fastq
+*.fastq.gz
+*.fasta
+*.vcf
+*.vcf.gz
+*.vhdx
+
+# Python
+__pycache__/
+*.pyc
+
+# Docker
+.docker/
+
+# vg
+vg/ 
+
+# Temp
+Code/
+data_analysis1/
+deepvariant/
+
