@@ -16,6 +16,10 @@ output/
 *.vcf
 *.vcf.gz
 *.vhdx
+*.bed
+*.gbz
+*.tbi
+*.fai
 
 # Python
 __pycache__/
@@ -32,3 +36,6 @@ Code/
 data_analysis1/
 deepvariant/
 
+# Bash scripts
+*.sh
+ 
